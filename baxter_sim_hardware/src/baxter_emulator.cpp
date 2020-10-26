@@ -261,6 +261,7 @@ bool baxter_emulator::init()
   nav_light_sub = n.subscribe(BAXTER_NAV_LIGHT_TOPIC, 100, &baxter_emulator::nav_light_cb, this);
   head_nod_sub = n.subscribe(BAXTER_HEAD_NOD_CMD_TOPIC, 100, &baxter_emulator::head_nod_cb, this);
   head_nod_timer = n.createTimer(ros::Duration(1), &baxter_emulator::reset_head_nod, this, true, false);
+  return true;
 }
 
 /**

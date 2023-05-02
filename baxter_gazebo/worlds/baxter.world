@@ -74,7 +74,11 @@
     <gravity>0 0 -9.81</gravity>
     <gui fullscreen='0'>
       <camera name='user_camera'>
+<<<<<<< HEAD
         <pose>1.03491 0.471674 4.27012 0 1.2898 -2.59024</pose>
+=======
+        <pose>2.72677 -0.881279 1.77917 -0 0.590927 2.70535</pose>
+>>>>>>> 3446eff73e56d29fe6c0ea2a3cc60d62dc5f2183
         <view_controller>orbit</view_controller>
         <projection_type>perspective</projection_type>
       </camera>
@@ -174,10 +178,17 @@
       <heading_deg>0</heading_deg>
     </spherical_coordinates>
     <state world_name='default'>
+<<<<<<< HEAD
       <sim_time>3571 44000000</sim_time>
       <real_time>154 666831281</real_time>
       <wall_time>1683061157 681106223</wall_time>
       <iterations>154312</iterations>
+=======
+      <sim_time>1001 722000000</sim_time>
+      <real_time>52 781965111</real_time>
+      <wall_time>1682799291 348120747</wall_time>
+      <iterations>50498</iterations>
+>>>>>>> 3446eff73e56d29fe6c0ea2a3cc60d62dc5f2183
       <model name='Marker ID-0'>
         <pose>0.620675 -0.004632 0.774363 0 -0 0</pose>
         <scale>1 1 1</scale>
@@ -188,46 +199,79 @@
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
+<<<<<<< HEAD
       <model name='O Cube'>
         <pose>0.899376 -0.124011 0.775606 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='o_cube'>
           <pose>0.899376 -0.124011 0.775606 0 -0 0</pose>
+=======
+      <model name='block_1_0'>
+        <pose>0.564676 -0.156514 0.796923 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link'>
+          <pose>0.564676 -0.156514 0.796923 0 -0 0</pose>
+>>>>>>> 3446eff73e56d29fe6c0ea2a3cc60d62dc5f2183
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
+<<<<<<< HEAD
       <model name='O Cube_clone'>
         <pose>0.89541 -0.071344 0.775606 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='o_cube'>
           <pose>0.89541 -0.071344 0.775606 0 -0 0</pose>
+=======
+      <model name='block_1_0_clone'>
+        <pose>0.640973 -0.154244 0.796923 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link'>
+          <pose>0.640973 -0.154244 0.796923 0 -0 0</pose>
+>>>>>>> 3446eff73e56d29fe6c0ea2a3cc60d62dc5f2183
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
+<<<<<<< HEAD
       <model name='O Cube_clone_0'>
         <pose>0.89254 -0.01019 0.775606 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='o_cube'>
           <pose>0.89254 -0.01019 0.775606 0 -0 0</pose>
+=======
+      <model name='block_1_0_clone_0'>
+        <pose>0.698275 -0.156366 0.796923 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link'>
+          <pose>0.698275 -0.156366 0.796923 0 -0 0</pose>
+>>>>>>> 3446eff73e56d29fe6c0ea2a3cc60d62dc5f2183
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
+<<<<<<< HEAD
       <model name='O Cube_clone_1'>
         <pose>0.889655 0.048098 0.775606 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='o_cube'>
           <pose>0.889655 0.048098 0.775606 0 -0 0</pose>
+=======
+      <model name='block_1_0_clone_1'>
+        <pose>0.763011 -0.159372 0.796923 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link'>
+          <pose>0.763011 -0.159372 0.796923 0 -0 0</pose>
+>>>>>>> 3446eff73e56d29fe6c0ea2a3cc60d62dc5f2183
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
+<<<<<<< HEAD
       <model name='O Cube_clone_2'>
         <pose>0.88796 0.110045 0.775606 0 -0 0</pose>
         <scale>1 1 1</scale>
@@ -283,6 +327,13 @@
         <scale>1 1 1</scale>
         <link name='x_cube'>
           <pose>0.573008 0.067992 0.77596 0 -0 0</pose>
+=======
+      <model name='block_1_0_clone_2'>
+        <pose>0.83941 -0.168796 0.796923 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link'>
+          <pose>0.83941 -0.168796 0.796923 0 -0 0</pose>
+>>>>>>> 3446eff73e56d29fe6c0ea2a3cc60d62dc5f2183
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
@@ -314,6 +365,52 @@
     </state>
     <model name='Marker ID-0'>
       <static>1</static>
+<<<<<<< HEAD
+=======
+      <link name='link'>
+        <pose>0 0 0.0005 0 -0 0</pose>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>0.09 0.09 0.001</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <box>
+              <size>0.09 0.09 0.001</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>marker_id_0</name>
+              <uri>model://marker_0/materials/scripts/</uri>
+              <uri>model://marker_0/materials/textures/</uri>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>0.4042 1.74364 0 0 -0 0</pose>
+    </model>
+    <model name='block_1_0_clone_2'>
+>>>>>>> 3446eff73e56d29fe6c0ea2a3cc60d62dc5f2183
       <link name='link'>
         <pose>0 0 0.0005 0 -0 0</pose>
         <collision name='collision'>
@@ -339,7 +436,11 @@
         <visual name='visual'>
           <geometry>
             <box>
+<<<<<<< HEAD
               <size>0.297 0.21 0.001</size>
+=======
+              <size>0.025 0.025 0.025</size>
+>>>>>>> 3446eff73e56d29fe6c0ea2a3cc60d62dc5f2183
             </box>
           </geometry>
           <material>
@@ -362,10 +463,16 @@
         <pose>0 0 0 0 -0 0</pose>
         <collision name='collision'>
           <geometry>
+<<<<<<< HEAD
             <mesh>
               <uri>file://x_cube/materials/meshes/X-Cube.stl</uri>
               <scale>0.001 0.001 0.001</scale>
             </mesh>
+=======
+            <box>
+              <size>0.025 0.025 0.025</size>
+            </box>
+>>>>>>> 3446eff73e56d29fe6c0ea2a3cc60d62dc5f2183
           </geometry>
           <max_contacts>10</max_contacts>
           <surface>
@@ -381,6 +488,7 @@
             </friction>
           </surface>
         </collision>
+<<<<<<< HEAD
         <visual name='visual'>
           <geometry>
             <mesh>
@@ -395,6 +503,27 @@
             <emissive>0 0 0 1</emissive>
           </material>
         </visual>
+=======
+      </link>
+      <static>0</static>
+      <allow_auto_disable>1</allow_auto_disable>
+      <pose>0.885719 -0.210442 0.795002 3e-06 8e-05 8.1e-05</pose>
+    </model>
+    <model name='block_1_0_clone_1'>
+      <link name='link'>
+        <inertial>
+          <mass>1</mass>
+          <inertia>
+            <ixx>0.166667</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>0.166667</iyy>
+            <iyz>0</iyz>
+            <izz>0.166667</izz>
+          </inertia>
+          <pose>0 0 0 0 -0 0</pose>
+        </inertial>
+>>>>>>> 3446eff73e56d29fe6c0ea2a3cc60d62dc5f2183
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
@@ -428,10 +557,16 @@
         </collision>
         <visual name='visual'>
           <geometry>
+<<<<<<< HEAD
             <mesh>
               <uri>file://x_cube/materials/meshes/X-Cube.stl</uri>
               <scale>0.001 0.001 0.001</scale>
             </mesh>
+=======
+            <box>
+              <size>0.025 0.025 0.025</size>
+            </box>
+>>>>>>> 3446eff73e56d29fe6c0ea2a3cc60d62dc5f2183
           </geometry>
           <material>
             <ambient>0 1 0 1</ambient>
@@ -452,10 +587,16 @@
         <pose>0 0 0 0 -0 0</pose>
         <collision name='collision'>
           <geometry>
+<<<<<<< HEAD
             <mesh>
               <uri>file://x_cube/materials/meshes/X-Cube.stl</uri>
               <scale>0.001 0.001 0.001</scale>
             </mesh>
+=======
+            <box>
+              <size>0.025 0.025 0.025</size>
+            </box>
+>>>>>>> 3446eff73e56d29fe6c0ea2a3cc60d62dc5f2183
           </geometry>
           <max_contacts>10</max_contacts>
           <surface>
@@ -471,6 +612,7 @@
             </friction>
           </surface>
         </collision>
+<<<<<<< HEAD
         <visual name='visual'>
           <geometry>
             <mesh>
@@ -485,6 +627,27 @@
             <emissive>0 0 0 1</emissive>
           </material>
         </visual>
+=======
+      </link>
+      <static>0</static>
+      <allow_auto_disable>1</allow_auto_disable>
+      <pose>0.810974 -0.212275 0.795001 -6e-06 -3e-05 0.000102</pose>
+    </model>
+    <model name='block_1_0_clone_0'>
+      <link name='link'>
+        <inertial>
+          <mass>1</mass>
+          <inertia>
+            <ixx>0.166667</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>0.166667</iyy>
+            <iyz>0</iyz>
+            <izz>0.166667</izz>
+          </inertia>
+          <pose>0 0 0 0 -0 0</pose>
+        </inertial>
+>>>>>>> 3446eff73e56d29fe6c0ea2a3cc60d62dc5f2183
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
@@ -518,10 +681,16 @@
         </collision>
         <visual name='visual'>
           <geometry>
+<<<<<<< HEAD
             <mesh>
               <uri>file://x_cube/materials/meshes/X-Cube.stl</uri>
               <scale>0.001 0.001 0.001</scale>
             </mesh>
+=======
+            <box>
+              <size>0.025 0.025 0.025</size>
+            </box>
+>>>>>>> 3446eff73e56d29fe6c0ea2a3cc60d62dc5f2183
           </geometry>
           <material>
             <ambient>0 1 0 1</ambient>
@@ -542,10 +711,16 @@
         <pose>0 0 0 0 -0 0</pose>
         <collision name='collision'>
           <geometry>
+<<<<<<< HEAD
             <mesh>
               <uri>file://x_cube/materials/meshes/X-Cube.stl</uri>
               <scale>0.001 0.001 0.001</scale>
             </mesh>
+=======
+            <box>
+              <size>0.025 0.025 0.025</size>
+            </box>
+>>>>>>> 3446eff73e56d29fe6c0ea2a3cc60d62dc5f2183
           </geometry>
           <max_contacts>10</max_contacts>
           <surface>
@@ -561,6 +736,7 @@
             </friction>
           </surface>
         </collision>
+<<<<<<< HEAD
         <visual name='visual'>
           <geometry>
             <mesh>
@@ -575,6 +751,27 @@
             <emissive>0 0 0 1</emissive>
           </material>
         </visual>
+=======
+      </link>
+      <static>0</static>
+      <allow_auto_disable>1</allow_auto_disable>
+      <pose>0.731634 -0.20463 0.795 -4e-06 -2e-06 6.1e-05</pose>
+    </model>
+    <model name='block_1_0'>
+      <link name='link'>
+        <inertial>
+          <mass>1</mass>
+          <inertia>
+            <ixx>0.166667</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>0.166667</iyy>
+            <iyz>0</iyz>
+            <izz>0.166667</izz>
+          </inertia>
+          <pose>0 0 0 0 -0 0</pose>
+        </inertial>
+>>>>>>> 3446eff73e56d29fe6c0ea2a3cc60d62dc5f2183
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
@@ -608,10 +805,16 @@
         </collision>
         <visual name='visual'>
           <geometry>
+<<<<<<< HEAD
             <mesh>
               <uri>file://o_cube/materials/meshes/O-Cube.stl</uri>
               <scale>0.001 0.001 0.001</scale>
             </mesh>
+=======
+            <box>
+              <size>0.025 0.025 0.025</size>
+            </box>
+>>>>>>> 3446eff73e56d29fe6c0ea2a3cc60d62dc5f2183
           </geometry>
           <material>
             <ambient>1 0 0 1</ambient>
@@ -632,10 +835,16 @@
         <pose>0 0 0 0 -0 0</pose>
         <collision name='collision'>
           <geometry>
+<<<<<<< HEAD
             <mesh>
               <uri>file://o_cube/materials/meshes/O-Cube.stl</uri>
               <scale>0.001 0.001 0.001</scale>
             </mesh>
+=======
+            <box>
+              <size>0.025 0.025 0.025</size>
+            </box>
+>>>>>>> 3446eff73e56d29fe6c0ea2a3cc60d62dc5f2183
           </geometry>
           <max_contacts>10</max_contacts>
           <surface>
@@ -651,6 +860,7 @@
             </friction>
           </surface>
         </collision>
+<<<<<<< HEAD
         <visual name='visual'>
           <geometry>
             <mesh>
@@ -702,6 +912,37 @@
               <uri>file://o_cube/materials/meshes/O-Cube.stl</uri>
               <scale>0.001 0.001 0.001</scale>
             </mesh>
+=======
+      </link>
+      <static>0</static>
+      <allow_auto_disable>1</allow_auto_disable>
+      <pose>0.577388 -0.207056 0.795 2e-06 1e-06 0.000131</pose>
+    </model>
+    <model name='block_1_0_clone'>
+      <link name='link'>
+        <inertial>
+          <mass>1</mass>
+          <inertia>
+            <ixx>0.166667</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>0.166667</iyy>
+            <iyz>0</iyz>
+            <izz>0.166667</izz>
+          </inertia>
+          <pose>0 0 0 0 -0 0</pose>
+        </inertial>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+        <pose>0.054212 0.142328 0 0 -0 0</pose>
+        <gravity>1</gravity>
+        <visual name='visual'>
+          <geometry>
+            <box>
+              <size>0.025 0.025 0.025</size>
+            </box>
+>>>>>>> 3446eff73e56d29fe6c0ea2a3cc60d62dc5f2183
           </geometry>
           <material>
             <ambient>1 0 0 1</ambient>
@@ -722,10 +963,16 @@
         <pose>0 0 0 0 -0 0</pose>
         <collision name='collision'>
           <geometry>
+<<<<<<< HEAD
             <mesh>
               <uri>file://o_cube/materials/meshes/O-Cube.stl</uri>
               <scale>0.001 0.001 0.001</scale>
             </mesh>
+=======
+            <box>
+              <size>0.025 0.025 0.025</size>
+            </box>
+>>>>>>> 3446eff73e56d29fe6c0ea2a3cc60d62dc5f2183
           </geometry>
           <max_contacts>10</max_contacts>
           <surface>
@@ -759,6 +1006,7 @@
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
+<<<<<<< HEAD
       <pose>0.889655 0.048098 0.775606 0 -0 0</pose>
     </model>
     <model name='O Cube_clone_2'>
@@ -805,6 +1053,11 @@
         <kinematic>0</kinematic>
       </link>
       <pose>0.88796 0.110045 0.775606 0 -0 0</pose>
+=======
+      <static>0</static>
+      <allow_auto_disable>1</allow_auto_disable>
+      <pose>0.606339 -0.298918 0.796923 0 -0 0</pose>
+>>>>>>> 3446eff73e56d29fe6c0ea2a3cc60d62dc5f2183
     </model>
   </world>
 </sdf>

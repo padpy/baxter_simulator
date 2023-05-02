@@ -1,0 +1,25 @@
+<sdf version="1.5">
+  <model name="TicTacToe">
+    <static>true</static>
+    <link name="link">
+      <pose>0.0 0.0 0.0005 0.0 0.0 0.0</pose>
+      <collision name="collision">
+        <geometry>
+          <!-- Box or plane geometry is used -->
+        <box><size>0.297 0.210 0.001</size></box></geometry>
+      </collision>
+      <visual name="visual">
+        <geometry>
+          <!-- Box or plane geometry is used -->
+        <box><size>0.297 0.210 0.001</size></box></geometry>
+        <material>
+          <script>
+            <name>tictactoe</name>
+            <uri>model://tictactoe/materials/scripts/</uri>
+            <uri>model://tictactoe/materials/textures/</uri>
+          </script>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>

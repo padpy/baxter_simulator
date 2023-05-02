@@ -1,0 +1,13 @@
+material tictactoe
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture tictactoe.png
+      }
+    }
+  }
+}
